@@ -6,6 +6,8 @@ Welcome to the **Interactive Medical Chatbot** powered by **LangChain** and the 
 
 ![Medical AI Assistant](C:/Users/swati/Pictures/Screenshots/Screenshot%202025-02-01%20123202.png)
 https://github.com/Swati-hub-ai/Medical_ai_chatbot/blob/23735bd4f69ac74f98394c10269965456ba9efad/Screenshot%202025-02-01%20123202.png
+![image](https://github.com/user-attachments/assets/4002df95-881e-4322-bfd6-57833e864858)
+
 
 ## Features
 - **Conversational UI**: Ask medical questions and receive intelligent responses.
