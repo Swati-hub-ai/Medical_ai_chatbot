@@ -3,6 +3,15 @@
 
 This is an interactive chatbot built using **LangChain** and **Llama3:latest**. It answers questions related to medical topics by leveraging a large language model (LLM) that retrieves relevant information from a locally stored **FAISS** index. The app is designed using **Streamlit** to provide a user-friendly interface for interaction.
 
+Welcome to the **Interactive Medical Chatbot** powered by **LangChain** and the **Llama3:latest model**. This chatbot helps answer medical questions by retrieving relevant information from the **FAISS index**.
+
+![Medical AI Assistant]("C:\Users\swati\Pictures\Screenshots\Screenshot 2025-02-01 123202.png")
+
+## Features
+- **Conversational UI**: Ask medical questions and receive intelligent responses.
+- **Medical Context**: Utilizes a knowledge base for accurate information.
+- **Offline**: Runs completely offline with locally installed models.
+
 ## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
