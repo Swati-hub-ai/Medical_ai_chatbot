@@ -5,6 +5,7 @@ This is an interactive chatbot built using **LangChain** and **Llama3:latest**. 
 Welcome to the **Interactive Medical Chatbot** powered by **LangChain** and the **Llama3:latest model**. This chatbot helps answer medical questions by retrieving relevant information from the **FAISS index**.
 
 ![Medical AI Assistant](C:/Users/swati/Pictures/Screenshots/Screenshot%202025-02-01%20123202.png)
+https://github.com/Swati-hub-ai/Medical_ai_chatbot/blob/23735bd4f69ac74f98394c10269965456ba9efad/Screenshot%202025-02-01%20123202.png
 
 ## Features
 - **Conversational UI**: Ask medical questions and receive intelligent responses.
