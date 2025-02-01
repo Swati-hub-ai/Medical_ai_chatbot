@@ -1,7 +1,7 @@
 
 # **Interactive Medical Chatbot**
 
-This is an interactive chatbot built using **LangChain** and **Mistral-7B-Instruct**. It answers questions related to medical topics by leveraging a large language model (LLM) that retrieves relevant information from a locally stored **FAISS** index. The app is designed using **Streamlit** to provide a user-friendly interface for interaction.
+This is an interactive chatbot built using **LangChain** and **Llama3:latest**. It answers questions related to medical topics by leveraging a large language model (LLM) that retrieves relevant information from a locally stored **FAISS** index. The app is designed using **Streamlit** to provide a user-friendly interface for interaction.
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -26,7 +26,7 @@ This project provides an interactive chatbot that answers medical questions base
 - **Streamlit**: For the user interface.
 - **LangChain**: For creating the retrieval-based QA system.
 - **FAISS**: For efficient document retrieval.
-- **Mistral-7B-Instruct Model**: For answering medical questions.
+- **Llama3:latest Model**: For answering medical questions.
 - **Hugging Face Model (Optional)**: If you're using HuggingFace-based models.
 
 ### **Libraries:**
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 If you haven't already, **pull the Mistral-7B-Instruct model** for local use with Ollama:
 
 ```bash
-ollama pull mistral
+ollama pull Llama3:latest
 ```
 
 Alternatively, you can use other **HuggingFace models** if you prefer. Make sure you update the model name in the code accordingly.
@@ -119,7 +119,7 @@ You can ask multiple questions in the same session. The chat history will be sto
 To use a different model (like a HuggingFace model or a different version of the Mistral model), update the `load_llm()` function in `chatbot.py`.
 
 ```python
-def load_llm(model_name="llama3:instruct"):
+def load_llm(model_name="Llama3:latest"):
     return OllamaLLM(model=model_name)  # Change model name here
 ```
 
