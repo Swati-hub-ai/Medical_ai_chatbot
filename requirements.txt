@@ -1,0 +1,7 @@
+numpy
+pandas
+langchain
+langchain_community
+langchain_huggingface
+faiss-cpu
+ipykernel
