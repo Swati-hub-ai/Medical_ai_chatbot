@@ -1,10 +1,9 @@
-Here’s a detailed README in **Markdown format** that explains how to set up and run your interactive **Streamlit Chatbot** using **LangChain** and the **Mistral-7B-Instruct model**.
-
----
 
 # **Interactive Medical Chatbot**
 
-This is an interactive chatbot built using **LangChain** and **Mistral-7B-Instruct**. It answers questions related to medical topics by leveraging a large language model (LLM) that retrieves relevant information from a locally stored **FAISS** index. The app is designed using **Streamlit** to provide a user-friendly interface for interaction.
+This is an interactive chatbot built using **LangChain** and **Llama3:latest**. It answers questions related to medical topics by leveraging a large language model (LLM) that retrieves relevant information from a locally stored **FAISS** index. The app is designed using **Streamlit** to provide a user-friendly interface for interaction.
+![image](https://github.com/user-attachments/assets/c65dcd62-628c-43a4-bf46-b84cd8fee90b)
+
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -18,7 +17,7 @@ This is an interactive chatbot built using **LangChain** and **Mistral-7B-Instru
 ---
 
 ## **Introduction**
-This project provides an interactive chatbot that answers medical questions based on context retrieved from documents stored in a **FAISS** index. The chatbot uses **Mistral-7B-Instruct** model running locally and is built using **LangChain** for data retrieval and **Streamlit** for the web interface.
+This project provides an interactive chatbot that answers medical questions based on context retrieved from documents stored in a **FAISS** index. The chatbot uses **Llama3:latest** model running locally and is built using **LangChain** for data retrieval and **Streamlit** for the web interface.
 
 ---
 
@@ -73,9 +72,9 @@ venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
 ```
 
-### 3. **Download Mistral-7B-Instruct Model**
+### 3. **Download Llama3:latest Model**
 
-If you haven't already, **pull the Mistral-7B-Instruct model** for local use with Ollama:
+If you haven't already, **pull the Llama3:latest model** for local use with Ollama:
 
 ```bash
 ollama pull mistral
@@ -122,7 +121,7 @@ You can ask multiple questions in the same session. The chat history will be sto
 To use a different model (like a HuggingFace model or a different version of the Mistral model), update the `load_llm()` function in `chatbot.py`.
 
 ```python
-def load_llm(model_name="llama3:instruct"):
+def load_llm(model_name="Llama3:latest"):
     return OllamaLLM(model=model_name)  # Change model name here
 ```
 
